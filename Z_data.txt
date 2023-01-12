@@ -1,0 +1,6 @@
+1 -> school   - parent table
+2 -> student  - class(subject, school, teacher)
+3 -> Subject
+4 -> class    - school
+5 -> teacher  - school, class, subject
+

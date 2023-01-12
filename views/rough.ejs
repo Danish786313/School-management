@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Document</title>
+</head>
+<body>
+
+  <form action="/test" method="post">
+    <h1>Dropaown</h1>
+    <select id="volume" name="school">
+      <% for(let i=0; i<schools.length; i++){ %>
+        <option value="<%= schools[i].id %>"> <%= schools[i].name %></option>
+      <% } %>
+    </select>
+    <button type="submit">Submit</button>
+  </form>
+  
+
+</body>
+</html>
